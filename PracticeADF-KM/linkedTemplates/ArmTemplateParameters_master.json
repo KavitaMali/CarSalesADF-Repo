@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "PracticeADF-KM"
+		},
+		"AzureDataLakeStorage_ls_accountKey": {
+			"value": ""
+		},
+		"ls_sqlDB_password": {
+			"value": ""
+		},
+		"AthleteHttpLS_properties_typeProperties_url": {
+			"value": "https://github.com/darshilparmar/tokyo-olympic-azure-data-engineering-project/raw/refs/heads/main/data/Athletes.csv"
+		},
+		"AzureDataLakeStorage_ls_properties_typeProperties_url": {
+			"value": "https://adlspracticekbmstorage.dfs.core.windows.net/"
+		},
+		"ls_sqlDB_properties_typeProperties_server": {
+			"value": "carsales-server1.database.windows.net"
+		},
+		"ls_sqlDB_properties_typeProperties_database": {
+			"value": "CarSales-SQL"
+		},
+		"ls_sqlDB_properties_typeProperties_userName": {
+			"value": "adminkavita"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
